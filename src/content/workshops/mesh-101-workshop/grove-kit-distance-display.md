@@ -73,7 +73,7 @@ void setup()
   Serial.begin(9600);
 }
 ```
-12. Finally, in the `loop` function, calculate the range using the `measureInCentimeters` method (`measureInInches` is also supported), which returns a value between `0` and `400`. We'll also include a delay to keep the console scroll factor reasonable.
+12. Finally, in the `loop` function, calculate the range using the `MeasureInCentimeters` method (`MeasureInInches` is also supported), which returns a value between `0` and `400`. We'll also include a delay to keep the console scroll factor reasonable.
 ```cpp
 void loop()
 {
